@@ -87,8 +87,12 @@ button:hover {
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0.12em;
+    letter-spacing: 1.4px;
     text-transform: uppercase;
+}
+
+.menu-icon {
+    display: none;
 }
 
 /* ================ Стили для 1-й секции ================*/
@@ -438,5 +442,13 @@ small {
     }
 }
 
+/* ====================== Адаптив под мобильные устройства ====================== */
 
-
+@media screen and (max-width: 576px) {
+    .menu {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
