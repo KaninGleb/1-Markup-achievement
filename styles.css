@@ -464,4 +464,18 @@ small {
         font-size: 52px;
         line-height: 60px;
     }
+
+    .account-wrapper {
+        gap: 60px;
+    }
+
+    label {
+        white-space: nowrap;
+    }
+
+    fieldset {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        
+    }
 }
