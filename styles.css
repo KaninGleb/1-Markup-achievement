@@ -134,6 +134,8 @@ button:hover {
 
 .main-img {
     align-self: flex-end;
+    max-width: 656px;
+    width: 100%;
 }
 
 .rates-section {
@@ -461,11 +463,5 @@ small {
     .main-title {
         font-size: 52px;
         line-height: 60px;
-    }
-
-    .main-img {
-        align-self: flex-end;
-        max-width: 656px;
-        width: 100%;
     }
 }
